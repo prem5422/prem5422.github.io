@@ -1,0 +1,192 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Menu Menu Menu"
+      "Notes Notes Notes"
+      "MainText MainText MainText"
+      "Footer Footer Footer";
+  }
+  body{background-color: #28092c;
+    border: 5px solid;}
+
+  ul{
+    list-style-type: none;
+    
+    }
+
+  a:link {
+    color: #4B6748;
+    text-decoration: none;
+    }
+    
+    a:visited {
+    color: #4B6748;;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    color: darkgreen;
+    }
+  
+  .menu { grid-area: Menu; 
+          color: #4B6748;
+          background-color:#644867;
+          text-align: center;
+          list-style-type: none;
+          border: 5px;
+          font-size: 35px;   
+          
+        }
+  
+  .notes { grid-area: Notes;
+           background-color: #3c3440;
+           border: 5px;
+           }
+
+  .premTableNotes {
+    text-align: center;
+    color: white;
+    margin-left:auto; margin-right:auto;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+
+  }
+
+  
+  .positionStyle {
+    border-right: 2px solid;
+}
+
+.teamStyle {
+    border-right: 2px solid;
+}
+
+.playedStyle {
+    border-right: 2px solid;
+}
+
+.goalStyle {
+    border-right: 2px solid ; 
+}
+
+.headlines{
+  font-size: 30px;
+}
+
+  .premTablePage {
+    text-align: center;
+    color: black;
+    margin-left:auto; margin-right:auto;
+    font-size: 40px;
+   
+    
+  } 
+
+  .fixturesStyle{font-size: 20px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+  }
+
+  
+  
+  .mainText { grid-area: MainText;
+              background-color: #644867;
+              border: 5px ;
+              padding-top: 20px;
+              padding-bottom: 20px; 
+              text-align: center;}
+
+  .footer { grid-area: Footer;
+            background-color:#28092c;
+            text-align: center;
+            align-items: center;
+            border: 5px; }
+
+  @media only screen and (min-width: 768px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Menu Menu Menu"
+          "Notes MainText MainText"
+          "Notes MainText MainText"
+          "Footer Footer Footer";
+      }
+      body{background-color:#28092c;}
+
+      
+
+      .menu { grid-area: Menu;
+              color: #4B6748;
+              background-color:#644867; 
+              list-style-type: none;
+              border: 2px solid transparent;
+              font-size: 35px;    
+                    
+            }
+
+      .notes { grid-area: Notes;
+               background-color:#3c3440;
+               border: 2px solid ;
+               padding-left: 20px;
+               padding-right: 20px;
+
+            }
+
+      .mainText { grid-area: MainText;
+                  background-color: #644867;
+                  border: 2px solid ;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
+                  text-align:left;
+                  
+                }
+
+      .footer { grid-area: Footer;
+                background-color:#28092c;
+                text-align: center;
+                border: 2px solid transparent; }
+
+      li {
+            display: inline;
+            margin-right: 20px; 
+            
+            }
+
+      a:link {
+            color: lightgreen;
+            text-decoration: none;
+            }
+            
+            a:visited {
+            color: lightgreen;
+            text-decoration: none;
+            }
+            
+            a:hover {
+            color: green;
+            }    
+}
+
+h2{
+  font-size: 36px;
+}
+.aboutInfo{
+  font-size: 30px ;
+}
+
+.premTablePage {
+  text-align: center;
+  color: black;
+  margin-left:auto; margin-right:auto;
+  font-size: 40px;
+} 

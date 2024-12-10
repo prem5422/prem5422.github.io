@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Prem.ico" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="stylefooty.css">
+    <script>
+    function validateForm() {
+        var email = document.getElementById("email").value;
+        var birthday = document.getElementById("birthday").value;
+        var mnumber = document.getElementById("mnumber").value;
+        
+        //age confirmation
+        let today = 31/12/2008;
+
+        if (mnumber.length >10 || mnumber.length <10){
+            alert("mobile number must be 10 numbers long");
+            return false;
+        }
+
+        if (!email.includes("@") || !email.endsWith(".com")) {
+			alert("Invalid email format. Email must contain '@' and end with '.com'.");
+			return false;
+		}
+        
+
+      }
+      </script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            
+            <img src="Prem.png" alt="premier league logo"></img>
+                <br>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="tablepage.html">Table</a></li> 
+                <li><a href="fixtures.html">Fixtures</a></li>
+                <li><a href="formpage.html">Contact us</a></li>
+              </ul>
+        </div>
+        
+        <div class="notes">
+            
+            <table class="premTableNotes">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Team</th>
+                        <th>Played</th>
+                        <th>Goal Difference</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="positionStyle">1</td>
+                        <td class="teamStyle">Liverpool</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">18</td>
+                        <td class="pointsStyle">34</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">2</td>
+                        <td class="teamStyle">Arsenal</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">12</td>
+                        <td class="pointsStyle">25</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">3</td>
+                        <td class="teamStyle">Chelsea</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">12</td>
+                        <td class="pointsStyle">25</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">4</td>
+                        <td class="teamStyle">Brighton</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">5</td>
+                        <td class="pointsStyle">23</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">5</td>
+                        <td class="teamStyle">Manchester City</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">3</td>
+                        <td class="pointsStyle">23</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">6</td>
+                        <td class="teamStyle">Nottingham Forest</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">3</td>
+                        <td class="pointsStyle">22</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">7</td>
+                        <td class="teamStyle">Tottenham Hotspur</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">14</td>
+                        <td class="pointsStyle">20</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">8</td>
+                        <td class="teamStyle">Brentford</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">3</td>
+                        <td class="pointsStyle">20</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">9</td>
+                        <td class="teamStyle">Manchester United</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">4</td>
+                        <td class="pointsStyle">19</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">10</td>
+                        <td class="teamStyle">Fulham</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">0</td>
+                        <td class="pointsStyle">19</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">11</td>
+                        <td class="teamStyle">Newcastle United</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">0</td>
+                        <td class="pointsStyle">19</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">12</td>
+                        <td class="teamStyle">Aston Villa</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-3</td>
+                        <td class="pointsStyle">19</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">13</td>
+                        <td class="teamStyle">Bournemouth</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">1</td>
+                        <td class="pointsStyle">18</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">14</td>
+                        <td class="teamStyle">West Ham United</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-7</td>
+                        <td class="pointsStyle">15</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">15</td>
+                        <td class="teamStyle">Everton</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-11</td>
+                        <td class="pointsStyle">11</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">16</td>
+                        <td class="teamStyle">Leicester City</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-11</td>
+                        <td class="pointsStyle">10</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">17</td>
+                        <td class="teamStyle">Crystal Palace</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-7</td>
+                        <td class="pointsStyle">9</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">18</td>
+                        <td class="teamStyle">Wolves</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-10</td>
+                        <td class="pointsStyle">9</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">19</td>
+                        <td class="teamStyle">Ipswich Town</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-11</td>
+                        <td class="pointsStyle">9</td>
+                    </tr>
+                    <tr>
+                        <td class="positionStyle">20</td>
+                        <td class="teamStyle">Southampton</td>
+                        <td class="playedStyle">13</td>
+                        <td class="goalStyle">-15</td>
+                        <td class="pointsStyle">5</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
+        <div class="mainText"> 
+            <p>If you have any business queries please contact</p>
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="" required><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="" required><br><br>
+
+            <label for="mnumber">Mobile Number:</label><br>
+            <input type="tel" id="mnumber" name="mnumber" value="" required><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" value="" required><br>
+            
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+        </div>
+
+        <div class="footer">
+            <h1>Proudly Parterned With</h1>
+            <a href="https://www.nike.com/ie" target="_blank"><img src="nike.png" alt="nike logo"></img></a>
+            <a href="https://www.oracle.com" target="_blank"><img src="Oracle.png" alt="oracle logo"></img></a>
+            <a href="https://www.guinness.com" target="_blank"><img src="guinness.png" alt="Guinness logo"></img></a>
+            <a href="https://www.barclays.co.uk" target="_blank"><img src="barclays.png" alt="barclays logo"></img></a>
+        </div>
+        
+      </div>
+   
+</body>
+</html>
